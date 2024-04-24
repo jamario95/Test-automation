@@ -1,4 +1,5 @@
 // Define a class named NumbersValidator
+// Export the NumbersValidator class to be used in other modules
 export default class NumbersValidator {
   
   // Method to check if a number is even
@@ -55,5 +56,4 @@ export default class NumbersValidator {
   }
 }
 
-// Export the NumbersValidator class to be used in other modules
-//module.exports = NumbersValidator;
+
