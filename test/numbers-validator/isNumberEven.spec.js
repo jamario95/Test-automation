@@ -8,6 +8,10 @@ describe("isNumberEven posituve tests", () => {
   beforeEach(() => {
     validator  = new NumbersValidator();
   });
+  afterEach(() => {
+    validator = null;
+  })
+  
 
   it("should return true when provided with an even number", () => {
     const validationResults = validator.isNumberEven(4);
