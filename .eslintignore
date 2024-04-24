@@ -1,4 +1,4 @@
 node_modules
 coverage
 mochawesome-report
-assets
+eslint.config.js

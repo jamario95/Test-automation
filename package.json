@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "coverage": "c8 npm test"
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
   },
   "keywords": [],
   "author": "Mariusz Januszek",
